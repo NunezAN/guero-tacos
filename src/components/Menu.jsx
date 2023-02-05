@@ -17,18 +17,24 @@ const menu = {
     { name: "costillas", price: "11.99" },
   ],
   dailySpecials: [
-    { name: "Monday: consome + 2 tacos + drink", price: "9.99" },
+    { name: "consome + 2 tacos + drink", day: "monday", price: "9.99" },
     {
-      name: "Tuesday: costilla + rice/beans + 4 tortillas + drink ",
+      name: "costilla + rice/beans + 4 tortillas + drink ",
+      day: "tuesday",
       price: "8.49",
     },
-    { name: "Wednesday: chile relleno + drink", price: "8.49" },
-    { name: "thursday: caldo de res", price: "8.99" },
     {
-      name: "friday: 1LB. CARNITAS + 12 TORTILLAS + RICE/BEANS + 2 DRINKS",
+      name: "chile relleno + drink",
+      day: "wednesday",
+      price: "8.49",
+    },
+    { name: "caldo de res", day: "thursday", price: "8.99" },
+    {
+      name: "1LB. CARNITAS + 12 TORTILLAS + RICE/BEANS + 2 DRINKS",
+      day: "friday",
       price: "21.99",
     },
-    { name: "MONTALAYO X POUND", price: "19.99" },
+    { name: "MONTALAYO X POUND", day: "saturday/sunday", price: "19.99" },
   ],
   breakfast: [
     { name: "consome", price: "9.99" },
@@ -72,7 +78,12 @@ const Menu = () => {
         daily specials
       </span>
       {menu.dailySpecials.map((item, index) => (
-        <SpecialItem key={index} name={item.name} price={item.price} />
+        <SpecialItem
+          key={index}
+          name={item.name}
+          price={item.price}
+          day={item.day}
+        />
       ))}
       <span className="pt-8 pb-4 text-3xl uppercase text-center underline block font-extrabold text-[#483729] decoration-yellow-500">
         Breakfast 7am-11am
