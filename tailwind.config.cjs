@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         ropa: ["Ropa Sans", "sans-serif"],
+        libre: ["Libre Caslon Text", "serif"],
       },
     },
   },
