@@ -16,7 +16,7 @@ const Contact = () => {
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faLocationDot}
         />
-        <span className="text-3xl">
+        <span className="text-2xl md:text-3xl font-bold">
           7449 Bennett Lawson Rd, Mansfield, TX 76063
         </span>
       </div>
@@ -25,21 +25,26 @@ const Contact = () => {
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faClock}
         />
-        <span className="text-3xl">Monday - Sunday 7am - 3pm</span>
+        <span className="text-2xl md:text-3xl font-bold">
+          Monday - Sunday 7am - 3pm
+        </span>
       </div>
       <div className="text-center">
         <FontAwesomeIcon
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faPhone}
         />
-        <span className="text-3xl"> (682) 478-7509</span>
+        <span className="text-2xl md:text-3xl font-bold"> (682) 478-7509</span>
       </div>
       <div className="text-center">
         <FontAwesomeIcon
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faEnvelope}
         />
-        <span className="text-3xl"> carnitasybarbacoaelguero@gmail.com</span>
+        <span className="text-2xl font-bold md:text-3xl">
+          {" "}
+          carnitasybarbacoaelguero@gmail.com
+        </span>
       </div>
     </div>
   );
