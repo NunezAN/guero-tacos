@@ -57,7 +57,7 @@ const menu = {
 
 const Menu = () => {
   return (
-    <div id="menu">
+    <div id="menu" className="mt-8">
       <h1 className="text-[#483729] uppercase text-center text-4xl font-extrabold font-libre p-4">
         menu
       </h1>

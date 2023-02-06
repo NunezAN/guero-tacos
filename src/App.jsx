@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Events from "./components/Events";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <Landing></Landing>
       <Menu></Menu>
-      <Events/>
+      <Events />
+      <Contact />
     </div>
   );
 }

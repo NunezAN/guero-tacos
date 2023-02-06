@@ -6,13 +6,19 @@ const Header = () => {
       <div className="max-w-7xl mx-auto">
         <ul className="text-white text-2xl font-extrabold flex items-center justify-around">
           <li>
-            <a href="#menu">MENU</a>
+            <a className="hover:text-yellow-500" href="#menu">
+              MENU
+            </a>
           </li>
           <li>
-            <a href="#events">EVENT ROOM</a>
+            <a className="hover:text-yellow-500" href="#events">
+              EVENT ROOM
+            </a>
           </li>
           <li>
-            <a href="">CONTACT</a>
+            <a className="hover:text-yellow-500" href="#contact">
+              CONTACT US
+            </a>
           </li>
         </ul>
       </div>
