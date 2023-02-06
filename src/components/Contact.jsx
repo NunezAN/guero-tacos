@@ -11,7 +11,7 @@ const Contact = () => {
       <h1 className="uppercase text-center text-5xl md:text-6xl font-extrabold font-libre py-8 px-4 text-white">
         Contact us
       </h1>
-      <div className="text-center">
+      <div className="text-center flex flex-col md:flex-row gap-2 justify-center">
         <FontAwesomeIcon
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faLocationDot}
@@ -20,7 +20,7 @@ const Contact = () => {
           7449 Bennett Lawson Rd, Mansfield, TX 76063
         </span>
       </div>
-      <div className="text-center">
+      <div className="text-center flex flex-col md:flex-row gap-2 justify-center">
         <FontAwesomeIcon
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faClock}
@@ -29,19 +29,19 @@ const Contact = () => {
           Monday - Sunday 7am - 3pm
         </span>
       </div>
-      <div className="text-center">
+      <div className="text-center flex flex-col md:flex-row gap-2 justify-center">
         <FontAwesomeIcon
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faPhone}
         />
         <span className="text-2xl md:text-3xl font-bold"> (682) 478-7509</span>
       </div>
-      <div className="text-center">
+      <div className="text-center flex flex-col md:flex-row gap-2 justify-center">
         <FontAwesomeIcon
           className="text-yellow-600 text-3xl md:text-4xl pr-4"
           icon={faEnvelope}
         />
-        <span className="text-2xl font-bold md:text-3xl">
+        <span className="text-xl font-bold md:text-3xl">
           {" "}
           carnitasybarbacoaelguero@gmail.com
         </span>
