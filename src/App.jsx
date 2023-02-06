@@ -1,3 +1,4 @@
+import Events from "./components/Events";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
 import Menu from "./components/Menu";
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Landing></Landing>
       <Menu></Menu>
+      <Events/>
     </div>
   );
 }

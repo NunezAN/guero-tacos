@@ -58,7 +58,7 @@ const menu = {
 const Menu = () => {
   return (
     <div id="menu">
-      <h1 className="text-[#483729] uppercase text-center text-4sxl font-extrabold font-libre p-4">
+      <h1 className="text-[#483729] uppercase text-center text-4xl font-extrabold font-libre p-4">
         menu
       </h1>
       <h2 className="text-center p-4 md:max-w-[60%] m-auto">
